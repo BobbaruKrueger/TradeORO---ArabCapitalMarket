@@ -1,0 +1,191 @@
+/*--------------------------------------------------------------
+>>>>>> CSSeco Styles(usualy overwrite bootsrap styles :))
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+	#  Imports
+	##  Fonts
+    ##  Bootstrap
+	#  CSSeco Variables
+	#  Overides(bs)
+	#  Helper Classes
+	#  CSSeco Styles
+	## Body
+	## Header
+	## Footer
+	## Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Imports 
+##  Fonts
+--------------------------------------------------------------*/
+@import url("../fonts/fonts.css");
+/*--------------------------------------------------------------
+#  Imports
+##  Bootstrap
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  CSSeco Variables
+--------------------------------------------------------------*/
+/* BreakPoint */
+/*--------------------------------------------------------------
+#  Overides(bs)
+--------------------------------------------------------------*/
+body {
+  direction: rtl;
+  font-family: 'SukarRegular';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 2px; }
+
+/*--------------------------------------------------------------
+#  Helper Classes
+--------------------------------------------------------------*/
+.posrel {
+  position: relative !important; }
+
+.elem-hidden {
+  display: none !important; }
+
+/*--------------------------------------------------------------
+#  CSSeco Styles
+## Body
+--------------------------------------------------------------*/
+div#site-wrapper {
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Footer
+  --------------------------------------------------------------*/
+  /*--------------------------------------------------------------
+  #  CSSeco Styles
+  ## Content
+  --------------------------------------------------------------*/ }
+  @media screen and (max-width: 767px) {
+    div#site-wrapper .container {
+      max-width: 100%; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    div#site-wrapper .container {
+      max-width: 750px; } }
+  div#site-wrapper .header_sub_wrapper {
+    background: url(../imgs/main-banner.jpg) 50% 0 no-repeat;
+    background-size: cover;
+    border-bottom: 10px solid #d3b365;
+    padding: 0 0 55px;
+    /*--------------------------------------------------------------
+    #  CSSeco Styles
+    ## Header
+    --------------------------------------------------------------*/ }
+    div#site-wrapper .header_sub_wrapper header#header .header_logo {
+      margin: 24px auto 50px; }
+    div#site-wrapper .header_sub_wrapper header#header h1 {
+      color: #d3b365;
+      font-family: "Sukar-black";
+      font-size: 24px;
+      line-height: 30px;
+      letter-spacing: 2px;
+      text-shadow: 0px 2px 0px #8e7332;
+      margin: 0 0 15px; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper .header_sub_wrapper header#header h1 {
+          color: #d3b365;
+          font-size: 40px;
+          letter-spacing: 3px;
+          line-height: 50px;
+          margin: 0 0 20px;
+          text-shadow: 0px 4px 0px #8e7332; } }
+      @media screen and (min-width: 992px) {
+        div#site-wrapper .header_sub_wrapper header#header h1 {
+          font-size: 50px;
+          letter-spacing: 4px;
+          line-height: 60px; } }
+      @media screen and (min-width: 1200px) {
+        div#site-wrapper .header_sub_wrapper header#header h1 {
+          font-size: 57px;
+          letter-spacing: 0px;
+          line-height: 67px; } }
+    div#site-wrapper .header_sub_wrapper header#header h3 {
+      color: #2b2b2b;
+      font-family: "SukarRegular";
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 27px;
+      margin: 0 0 15px; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper .header_sub_wrapper header#header h3 {
+          font-size: 20px;
+          line-height: 30px;
+          margin-bottom: 40px; } }
+  div#site-wrapper section#section1.subHeader .vid-wrapper {
+    border: 10px solid #fff;
+    box-shadow: 30px 20px 93px rgba(0, 0, 0, 0.3);
+    height: 0;
+    margin: 10px 0 15px;
+    max-width: 100%;
+    overflow: hidden;
+    padding-bottom: 55.25%;
+    position: relative; }
+    @media screen and (min-width: 992px) {
+      div#site-wrapper section#section1.subHeader .vid-wrapper {
+        margin-top: 0; } }
+    div#site-wrapper section#section1.subHeader .vid-wrapper iframe {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%; }
+  div#site-wrapper section#section1.subHeader .form-wrap .formEl {
+    margin-bottom: 10px; }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="text"],
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="email"],
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="tel"],
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl select {
+      background: #fff;
+      border: 1px solid #464646;
+      border-radius: 2px;
+      color: #666666;
+      font: italic 16px/35px "SukarRegular";
+      height: 45px;
+      line-height: 25px;
+      padding: 10px;
+      text-align: right;
+      width: 100%; }
+      @media screen and (min-width: 768px) {
+        div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="text"],
+        div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="email"],
+        div#site-wrapper section#section1.subHeader .form-wrap .formEl input[type="tel"],
+        div#site-wrapper section#section1.subHeader .form-wrap .formEl select {
+          height: 55px; } }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl .agreement {
+      background: rgba(0, 0, 0, 0.7);
+      color: #FFF;
+      padding: 5px 3px;
+      text-align: right; }
+      div#site-wrapper section#section1.subHeader .form-wrap .formEl .agreement input[type="checkbox"],
+      div#site-wrapper section#section1.subHeader .form-wrap .formEl .agreement input[type="checkbox"] + label {
+        display: inline; }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl input.phone-number {
+      float: left;
+      width: 68%; }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl input.phone-prefix {
+      float: right;
+      text-align: center;
+      width: 30%; }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl button[type="submit"],
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl div#checksubmit {
+      background: url(../imgs/section1/form/btn-bg.png) 0 100% repeat-x;
+      border: medium none;
+      color: #fff;
+      font: bold 25px/45px "SukarBlack";
+      height: 66px;
+      padding: 10px 0;
+      text-align: center;
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      width: 100%; }
+    div#site-wrapper section#section1.subHeader .form-wrap .formEl div#checksubmit {
+      display: none;
+      height: 66px;
+      opacity: .5;
+      padding: 12px 0; }
